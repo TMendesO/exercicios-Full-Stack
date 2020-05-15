@@ -1,0 +1,1 @@
+insert into estados(nome,sigla) values ("Thiago","TH")

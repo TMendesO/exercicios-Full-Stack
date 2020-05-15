@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Aulas de Javascript</title>
+        <script>
+            function retornarDigitos(tempo){
+                if(tempo < 10){
+                   return "0" + tempo; 
+                }else{
+                    return tempo;
+                }
+                
+            }
+            
+            var agora = new Date();
+            console.log(retornarDigitos(agora.getHours())+" : "+retornarDigitos(agora.getMinutes())+ " : "+retornarDigitos(agora.getSeconds()) );
+            
+            var aniversario = new Date(1990,3,14,6,2,1);
+            
+            console.log(aniversario);
+            
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>

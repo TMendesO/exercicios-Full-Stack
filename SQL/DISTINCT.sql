@@ -1,0 +1,2 @@
+SELECT DISTINCT tempoentrega
+FROM produtos

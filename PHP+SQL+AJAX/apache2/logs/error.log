@@ -1,0 +1,19 @@
+[Fri May 15 08:36:15.461497 2020] [mpm_winnt:notice] [pid 10188:tid 836] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Fri May 15 08:36:15.462497 2020] [mpm_winnt:notice] [pid 10188:tid 836] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Fri May 15 08:36:15.462497 2020] [core:notice] [pid 10188:tid 836] AH00094: Command line: 'C:\\Users\\thiag\\Documents\\Informatica\\Udemy\\PHP+SQL+AJAX/apache2/bin/httpd_usbwv8.exe -d C:/Users/thiag/Documents/Informatica/Udemy/PHP+SQL+AJAX/apache2'
+[Fri May 15 08:36:15.499503 2020] [mpm_winnt:notice] [pid 10188:tid 836] AH00418: Parent: Created child process 2580
+[Fri May 15 08:36:19.044937 2020] [mpm_winnt:notice] [pid 2580:tid 852] AH00354: Child: Starting 64 worker threads.
+[Fri May 15 08:55:56.052080 2020] [:error] [pid 2580:tid 1356] [client ::1:64858] script 'C:/Users/thiag/Documents/Informatica/Udemy/PHP+SQL+AJAX/root/public/unidade_07/login.php' not found or unable to stat
+[Fri May 15 09:01:40.843943 2020] [:error] [pid 2580:tid 1348] [client ::1:65037] script 'C:/Users/thiag/Documents/Informatica/Udemy/PHP+SQL+AJAX/root/public/unidade_07/login.php' not found or unable to stat
+[Fri May 15 09:02:01.835796 2020] [:error] [pid 2580:tid 1348] [client ::1:65063] script 'C:/Users/thiag/Documents/Informatica/Udemy/PHP+SQL+AJAX/root/public/unidade_09/alteracao.php' not found or unable to stat
+[Fri May 15 09:06:34.222360 2020] [:error] [pid 2580:tid 1356] [client ::1:65236] script 'C:/Users/thiag/Documents/Informatica/Udemy/PHP+SQL+AJAX/root/public/unidade_07/login.php' not found or unable to stat
+[Fri May 15 09:07:46.696207 2020] [:error] [pid 2580:tid 1356] [client ::1:65249] script 'C:/Users/thiag/Documents/Informatica/Udemy/PHP+SQL+AJAX/root/public/unidade_07/login.php' not found or unable to stat
+[Fri May 15 09:08:20.136812 2020] [:error] [pid 2580:tid 1348] [client ::1:65254] script 'C:/Users/thiag/Documents/Informatica/Udemy/PHP+SQL+AJAX/root/public/unidade_09/alteracao.php' not found or unable to stat
+[Fri May 15 09:08:29.300368 2020] [:error] [pid 2580:tid 1356] [client ::1:65260] script 'C:/Users/thiag/Documents/Informatica/Udemy/PHP+SQL+AJAX/root/public/unidade_07/login.php' not found or unable to stat
+[Fri May 15 09:40:34.273995 2020] [:error] [pid 2580:tid 1356] [client ::1:65473] script 'C:/Users/thiag/Documents/Informatica/Udemy/PHP+SQL+AJAX/root/public/unidade_09/alteracao.php' not found or unable to stat
+[Fri May 15 09:40:34.341024 2020] [:error] [pid 2580:tid 1348] [client ::1:65474] script 'C:/Users/thiag/Documents/Informatica/Udemy/PHP+SQL+AJAX/root/public/unidade_07/login.php' not found or unable to stat
+[Fri May 15 09:40:39.644875 2020] [:error] [pid 2580:tid 1356] [client ::1:65477] script 'C:/Users/thiag/Documents/Informatica/Udemy/PHP+SQL+AJAX/root/public/unidade_09/alteracao.php' not found or unable to stat
+[Fri May 15 09:43:05.060519 2020] [:error] [pid 2580:tid 1348] [client ::1:65512] script 'C:/Users/thiag/Documents/Informatica/Udemy/PHP+SQL+AJAX/root/public/unidade_07/login.php' not found or unable to stat
+[Fri May 15 09:44:26.184944 2020] [:error] [pid 2580:tid 1348] [client ::1:65521] script 'C:/Users/thiag/Documents/Informatica/Udemy/PHP+SQL+AJAX/root/public/unidade_07/login.php' not found or unable to stat
+[Fri May 15 09:50:48.583173 2020] [:error] [pid 2580:tid 1336] [client ::1:49178] script 'C:/Users/thiag/Documents/Informatica/Udemy/PHP+SQL+AJAX/root/public/unidade_07/login.php' not found or unable to stat
+[Fri May 15 09:51:20.685032 2020] [:error] [pid 2580:tid 1352] [client ::1:49184] script 'C:/Users/thiag/Documents/Informatica/Udemy/PHP+SQL+AJAX/root/public/unidade_07/login.php' not found or unable to stat

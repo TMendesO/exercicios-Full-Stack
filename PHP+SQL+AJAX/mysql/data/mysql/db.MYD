@@ -7,3 +7,9 @@ Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
 2020-02-17 18:37:15 5756 [Note] Event Scheduler: Loaded 0 events
 2020-02-17 18:37:15 5756 [Note] C:\Users\thiag\Documents\Informatica\Udemy\PHP+SQL/mysql/bin/mysqld_usbwv8.exe: ready for connections.
 Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
+2020-05-18 18:14:52 11228 [Note] Event Scheduler: Loaded 0 events
+2020-05-18 18:14:52 11228 [Note] C:\Users\thiag\Documents\Informatica\Udemy\exercicios-Full-Stack\PHP+SQL+AJAX/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
+2020-05-25 10:43:04 6316 [Note] Event Scheduler: Loaded 0 events
+2020-05-25 10:43:04 6316 [Note] C:\Users\thiag\Documents\Informatica\Udemy\exercicios-Full-Stack\PHP+SQL+AJAX/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)

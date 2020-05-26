@@ -1,17 +1,17 @@
 /* estilos da pesquisa */
 main div#janela_formulario {
-    width:860px;
-    margin:50px auto 30px;
+    width: 860px;
+    margin: 50px auto 30px;
 }
 
 main div#janela_formulario form {
-    width:470px;
-    margin:10px auto;
+    width: 470px;
+    margin: 10px auto;
 }
 
-main div#janela_formulario form h2  {
+main div#janela_formulario form h2 {
     font-family: sans-serif;
-    color:#9A9668;
+    color: #9A9668;
 }
 
 main div#janela_formulario form p {
@@ -30,13 +30,13 @@ main div#janela_formulario form label {
     font-size: 12px;
     font-weight: 500;
     margin-bottom: 3px;
-    color: #9A9668;    
+    color: #9A9668;
 }
 
 main div#janela_formulario form input[type="text"] {
-    width:350px;
-    padding:10px;
-    border:1px solid #CDC99B;
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #CDC99B;
     border-radius: 5px;
     outline: none;
     margin-bottom: 25px;
@@ -48,10 +48,10 @@ main div#janela_formulario form select {
 
 main div#janela_formulario form input[type="submit"] {
     display: block;
-    padding:10px 20px;
-    margin-top:15px;
+    padding: 10px 20px;
+    margin-top: 150px;
     color: #FFF;
-    border:0;
+    border: 0;
     border-radius: 5px;
     background-color: #C5996B;
     outline: none;
@@ -59,7 +59,8 @@ main div#janela_formulario form input[type="submit"] {
 }
 
 main div#janela_formulario form #mensagem {
-    margin:10px auto;
+    margin: 10px auto;
     display: none;
 }
+
 /* fim do estilo da pesquisa */

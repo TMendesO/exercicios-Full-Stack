@@ -1,0 +1,6 @@
+[Thu May 28 10:35:28.234003 2020] [mpm_winnt:notice] [pid 992:tid 860] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Thu May 28 10:35:28.242991 2020] [mpm_winnt:notice] [pid 992:tid 860] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Thu May 28 10:35:28.243990 2020] [core:notice] [pid 992:tid 860] AH00094: Command line: 'C:\\Users\\thiag\\Documents\\Informatica\\Udemy\\exercicios-Full-Stack\\Cursos-com servidor-local/apache2/bin/httpd_usbwv8.exe -d C:/Users/thiag/Documents/Informatica/Udemy/exercicios-Full-Stack/Cursos-com servidor-local/apache2'
+[Thu May 28 10:35:28.319931 2020] [mpm_winnt:notice] [pid 992:tid 860] AH00418: Parent: Created child process 9644
+[Thu May 28 10:35:36.124437 2020] [mpm_winnt:notice] [pid 9644:tid 924] AH00354: Child: Starting 64 worker threads.
+[Thu May 28 10:47:37.774274 2020] [:error] [pid 9644:tid 1384] [client ::1:59781] script 'C:/Users/thiag/Documents/Informatica/Udemy/exercicios-Full-Stack/Cursos-com servidor-local/root/public/unidade_07/login.php' not found or unable to stat

@@ -1,67 +1,145 @@
 <html>
-    <head>
-        <title>Curso de CSS3 Avancado</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <style>
-            
-            body {
-                margin:0;
-                font-family: sans-serif;
-                background: #f0f0f0;
-            }
-        
-            header {
-                width: 100%;
-                height: 600px;
-                margin: 0 auto 0;
-            }
-            
-            header img {
-                width: 100%;
-                height: 100%;
-                
-                object-fit: cover;
-                object-position: top center
-            }   
-            
-            main {
-                margin:0;
-                width: 100%;
-                height: 1500px;
-                background: #f0f0f0;
-            }
-            
-            /* para mobile */
-            @media only screen and (min-width:320px) and (max-width:414px) {
-                header {
-                    height: 320px;   
-                }
-            }
-            
-            /* desktop grande */
-            @media only screen and (min-width:1367px) and (max-width:1980px) {
-                header {
-                    height: 800px;   
-                }
-            }
-            
-            /* desktop gigante */
-            @media only screen and (min-width:1981px) and (max-width:2880px) {
-                header {
-                    height: 1000px;   
-                }
-            }          
-        
-        </style>
-    </head>
-    <body>
-        <header>
-            <img src="_img/mulher-computador-1200x628.jpg">
-        </header>
-        
-        <main>
-      
-        </main>
-    </body>
+
+<head>
+	<title>Curso de CSS3 Avancado</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<style>
+		body {
+			margin: 0;
+			font-family: sans-serif;
+			background: #f0f0f0;
+		}
+
+		header {
+			width: 100%;
+			height: 600px;
+			margin: 0 auto 0;
+		}
+
+		header img {
+			width: 100%;
+			height: 100%;
+
+			object-fit: cover;
+			object-position: top center
+		}
+
+		main {
+			margin: 0;
+			width: 100%;
+			height: 1500px;
+			background: #f0f0f0;
+		}
+
+		main section#apresentacao {
+			width: 90%;
+			max-width: 15000px;
+			min-width: 320px;
+			margin: 100px auto;
+
+
+		}
+
+		main section.pizzas {
+			width: 30%;
+			float: left;
+			box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.75);
+
+		}
+
+		main section.pizzas img {
+			width: 100%;
+			max-height: 300px;
+			object-fit: cover;
+			object-position: top center;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+		}
+
+		main section.pizzas h3 {
+			text-align: center;
+			margin-bottom: 0;
+		}
+
+		main section.pizzas p {
+			text-align: center;
+			padding: 5%;
+			margin-top: 1%;
+			color: #666;
+		}
+
+		main section.pizzas a {
+			display: block;
+			text-align: center;
+			background-color: darkgreen;
+			color: white;
+			padding: 3%;
+			text-decoration: none;
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+		}
+
+		main section.direita {
+			float: right;
+		}
+
+		main section.centro {
+			margin-left: 5%;
+		}
+
+		/* para mobile */
+		@media only screen and (min-width:320px) and (max-width:414px) {
+			header {
+				height: 320px;
+			}
+		}
+
+		/* desktop grande */
+		@media only screen and (min-width:1367px) and (max-width:1980px) {
+			header {
+				height: 800px;
+			}
+		}
+
+		/* desktop gigante */
+		@media only screen and (min-width:1981px) and (max-width:2880px) {
+			header {
+				height: 1000px;
+			}
+		}
+
+	</style>
+</head>
+
+<body>
+	<header>
+		<img src="_img/mulher-computador-1200x628.jpg">
+	</header>
+
+	<main>
+		<section id="apresentacao">
+			<section class="pizzas">
+				<img src="_img/pizza1.jpg">
+				<h3>Pizza Cacilds</h3>
+				<p>Praesent lacinia ultrices consectetur. Sed non ipsum felis. Sapien in monti palavris qui num significa nadis i pareci latim. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Quem num gosta di mim que vai caçá sua turmis!</p>
+				<a href="">Apenas 29,99</a>
+			</section>
+			<section class="pizzas centro">
+				<img src="_img/pizza2.jpg">
+				<h3>Pizza Vidis</h3>
+				<p>Praesent lacinia ultrices consectetur. Sed non ipsum felis. Sapien in monti palavris qui num significa nadis i pareci latim. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Quem num gosta di mim que vai caçá sua turmis!</p>
+				<a href="">Apenas 28,99</a>
+			</section>
+			<section class="pizzas direita">
+				<img src="_img/pizza3.jpg">
+				<h3>Pizza Lacinia</h3>
+				<p>Praesent lacinia ultrices consectetur. Sed non ipsum felis. Sapien in monti palavris qui num significa nadis i pareci latim. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Quem num gosta di mim que vai caçá sua turmis!</p>
+				<a href="">Apenas 27,99</a>
+			</section>
+		</section>
+
+	</main>
+</body>
+
 </html>

@@ -89,10 +89,23 @@
 		}
 
 		/* para mobile */
-		@media only screen and (min-width:320px) and (max-width:414px) {
+		@media only screen and (min-width:280px) and (max-width:414px) {
 			header {
 				height: 320px;
 			}
+
+			main section#apresentacao {
+				width: 100%;
+			}
+
+			main section.pizzas,
+			main section.centro,
+			main section.direita {
+				width: 905;
+				float: none;
+				margin: 15px auto;
+			}
+
 		}
 
 		/* desktop grande */

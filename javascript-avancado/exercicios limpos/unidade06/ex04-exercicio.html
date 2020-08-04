@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Javascript Avançado</title>
+	<meta chaset="utf-8" />
+</head>
+<style>
+	body {
+		height: 2000px;
+	}
+
+	div#posicaoY {
+		position: fixed;
+		top: 0;
+		left: 0;
+		padding: 20px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+	}
+
+	div#conteudo {
+		position: absolute;
+		top: 500px;
+		left: 50px;
+		width: 300px;
+		height: 150px;
+		margin-left: -150px;
+		background-color: aqua;
+		display: none;
+
+	}
+
+</style>
+
+<body>
+	<div id="posicaoY"></div>
+	<div id="conteudo"></div>
+	<script>
+		window.addEventListener("scroll", function() {
+
+			posicaoY.innerHTML = window.scrollY;
+
+
+			if (window.scrollY >= 200) {
+				conteudo.style.display = "block";
+
+			} else if (window.scrollY <= 200) {
+
+				conteudo.style.display = "none";
+
+			}
+		});
+
+	</script>
+</body>
+
+</html>

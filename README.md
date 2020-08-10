@@ -1,2 +1,2 @@
 # exercicios Full Stack
- exercicios de full stack
+ Todos os exercícios feitos do Curso de full-stack do professor André Fontenelle 🧑 🏫

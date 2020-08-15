@@ -1,0 +1,27 @@
+<html>
+    <head>
+</head>
+
+<body>
+    <div id="janela"></div>
+
+
+
+
+    <script>
+        var indice = 0
+        var intervalo;
+
+        function mudarTexto() {
+            janela.innerHTML = indice;
+            indice++;
+            if (indice > 7) {
+                clearInterval = intervalo;
+                janela.innerHTML = "parou";
+            }
+        }
+
+
+        intervalo = setInterval(mudarTexto, 2000);
+    </script>
+</body></html>

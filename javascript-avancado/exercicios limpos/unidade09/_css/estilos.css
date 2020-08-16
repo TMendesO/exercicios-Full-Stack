@@ -1,12 +1,29 @@
 /* Layout */
 body {
-    background-color:darkseagreen;
+    background-color: darkseagreen;
+    overflow: hidden;
 }
 
 .main {
+    background-color: #fff;
+    border-radius: 9px;
+    position: absolute;
+    top: 20%;
+    left: 38%;
     display: flex;
     padding: 2em;
-    height: 90vh;
+    height: 3%;
+    width: 20%;
+    justify-content: center;
+    align-items: middle;
+
+}
+
+main {
+    display: flex;
+    padding: 2em;
+    height: 60%;
+    width: 60%;
     justify-content: center;
     align-items: middle;
 }

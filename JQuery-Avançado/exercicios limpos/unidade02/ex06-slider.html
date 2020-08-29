@@ -1,26 +1,41 @@
 <!doctype html>
 <html lang="pt">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>jQuery UI Slider</title>
-        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-        <style>
-            input[type="text"] {
-                border: none;
-                padding: 5px;
-                margin-top: 20px;
-                font-size:80%;
-            }
-        </style>
-        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery UI Slider</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <style>
+        input[type="text"] {
+            border: none;
+            padding: 5px;
+            margin-top: 20px;
+            font-size: 80%;
+        }
 
-        </script>        
-    </head>
-    <body>
-        <div id="slider"></div>
-        <input type="text" id="valor">
-    </body>
-</html>
+        #slider {
+            width: 50%;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(function() {
+            $('#slider').slider({
+                step: 1,
+                value: 13,
+                min: 20,
+                max: 1000,
+                slide: function(event, ui) {
+                    $('#valor').val('R$: ' + ui.value);
+                }
+            });
+            $('#valor').val('R$: ' + $('#slider').slider('value'));
+        })
+    </script>
+</head>
+
+<body>
+    <div id="slider"></div>
+    <input type="text" id="valor">
+</body></html>
